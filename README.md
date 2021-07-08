@@ -1,4 +1,5 @@
 This repository contains the CellBlender and MATLAB codes used to run 3D Monte Carlo reation-diffusion simulations and geometric simulations of astrocytes in the following manuscript:
+
 Estimating the glutamate transporter surface density in mouse hippocampal astrocytes
 Anca R. Rădulescu, Cassandra L. Williams,  Gabrielle C. Todd,  Alex A. Lemus, Haley E. Chesbro,  Annalisa Scimemi
 
