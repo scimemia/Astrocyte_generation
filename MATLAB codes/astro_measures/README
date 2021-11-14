@@ -1,8 +1,8 @@
 The file named "astro_measures" is the main MATLAB code. 
-When run, it accesses the other files, and simulates a cell. 
-It produces a figure with the 3D structure of an astrocyte with spherical soma, and branches color-coded according to their branching level. 
-The code also calculates cell measures (Sholl profile, number of branches, average branch lengths, etc) as specified in the line by line comments). 
+When run, it accesses the other files, and simulates the 3D geometry of an astrocyte. 
+The model astrocyte has a spherical soma, and branches color-coded according to their hierarchical level. 
+The code also calculates cell measures (Sholl profile, number of branches, average branch lengths, etc.) as specified in the line-by-line comments). 
 
-The code needs to specify key parameters for the cell, such as the number of primary branches P (between 3 and 7), the number of branch levels N, the bias f in the application of the 3/2 rule, the length and frequency of leaves on the branch segment. 
-The function of each of these parameters is specified in the line by line comments.
+The code needs to specify key parameters for the astrocyte, such as the number of primary branches P (between 3 and 7), the number of branch levels N, the bias f in the application of the 3/2 rule, the length and frequency of leaves on the branch segment. 
+The function of each of these parameters is specified in the line-by-line comments.
 The code “plotting_average,” if run after “astro_measures,” stores the values of the computed measures, and plots the Sholl profile, the average number of branches and the average branch length per level. 
