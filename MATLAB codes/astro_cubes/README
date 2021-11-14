@@ -1,0 +1,8 @@
+The file named "astro_cubes” is the main MATLAB code. When run, it accesses the other files, and simulates a cell. 
+It produces a figure with the 3D structure of an astrocyte with spherical soma, and branches color-coded according to their branching level. 
+It records the surface area and volume of all branch levels and leaves, and computes separately the volume of the cell core structure (in the variable “Volcore”). 
+At the end of the run, the code prints the ratio of Volcore versus the whole cell volume.
+
+The code also produces a rectangular, equidistant partition of the 3-dimensional space occupied by the cell (for a fixed step size “stp”), and extracts a minimal collection of cubes that covers all branches in the non-core structure of the cell (a cube subcover). 
+The 3D model cell is then plotted in a figure, together with the cube subcover of the noncore structure. 
+The ratio of the volume of the non-core structure versus the volume of the subcover surrounding it (neuropil) is calculated and printed at the ends of the run.
