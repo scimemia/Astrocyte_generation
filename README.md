@@ -7,3 +7,5 @@ Anca R. Radulescu, Gabrielle C. Todd, Cassandra L. Williams, Benjamin A. Bennink
 https://doi.org/10.1101/2021.05.08.443234
 
 https://www.biorxiv.org/content/10.1101/2021.05.08.443234v1
+
+More specific instructions to run the codes are included in each of the two folders contained in this repository.
